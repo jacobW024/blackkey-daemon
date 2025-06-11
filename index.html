@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Terminal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="terminal">
+    <h1>BLACKKEY [ALPHA]</h1>
+    <div class="button-group">
+      <button onclick="copyCommand('::sync.bloodbond()')">Bloodbond</button>
+      <button onclick="copyCommand('::cloak.syswatch = TRUE')">Stealth Mode</button>
+      <button onclick="copyCommand('::burn.memory()')">Burn Memory</button>
+      <button onclick="copyCommand('::blackkey.recon.boot')">Start Recon</button>
+      <button onclick="copyCommand('::inject.ztrace()')">Inject Payload</button>
+      <button onclick="copyCommand('::echo.myth()')">Speak Myth</button>
+    </div>
+    <div class="codex-link">
+      <a href="BLACKKEY_ALPHA_CODEX.pdf" download>📄 View Codex</a>
+    </div>
+    <textarea id="console" placeholder="Type your log or mission note here..."></textarea>
+    <script src="core.js"></script>
+  </div>
+</body>
+</html>
